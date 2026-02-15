@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables (SECRETS)
+.env
+.env.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+Thumbs.db
+nul
+
+# Test coverage
+coverage/
